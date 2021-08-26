@@ -61,7 +61,7 @@ getNewQuestion = () => {
         console.log(questionCounter);
         console.log(NUM_QUESTIONS);
         localStorage.setItem('lastScore', score);
-        window.location.href = "/end.html";
+        window.location.href = "./end.html";
         return;
     }
 
@@ -103,6 +103,7 @@ choices.forEach(choice => {
 
 gainScore = () => {
     score += 10;
+    document.getElementById('current-score').innerHTML = score;
 }
 
 clearLastCheck = () => {

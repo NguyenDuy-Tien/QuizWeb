@@ -9,6 +9,13 @@
     box-shadow: 0 4px 6px 6px;
 }
 
+#score-box {
+    display: flex;
+    padding-top: .8rem;
+    padding-right: 1.2rem;
+    justify-content: flex-end;
+}
+
 #game .question {
     font-weight: 500;
     background-color: #cbe2ad;
