@@ -9,37 +9,39 @@ let availableQuestions = [];
 let c = 0;
 let questions = [];
 let activate = false;
-// fetch("questions.json")
-//     .then(res => res.json())
-//     .then(loadedQuestions => {
-//         questions = loadedQuestions;
-//         startGame();
-//     })
-//     .catch(err => console.error(err))
-
-fetch("https://opentdb.com/api.php?amount=10&category=21&difficulty=easy&type=multiple")
+let category = localStorage.getItem('selectedChoice');
+fetch(`questions_${category}.json`)
     .then(res => res.json())
     .then(loadedQuestions => {
-        console.log(loadedQuestions.results);
-        questions = loadedQuestions.results.map(loadedQuestion => {
-            const formattedQuestion = {
-                question: loadedQuestion.question
-            };
-
-            const answerChoices = [...loadedQuestion.incorrect_answers];
-            const indexCorrect = Math.floor(Math.random() * 3) + 1;
-            formattedQuestion.answer = indexCorrect;
-            answerChoices.splice(indexCorrect - 1, 0, loadedQuestion.correct_answer);
-
-            answerChoices.forEach((choice, index) => {
-                formattedQuestion["choice" + (index + 1)] = choice;
-            });
-
-            return formattedQuestion;
-        })
+        console.log(loadedQuestions);
+        questions = loadedQuestions;
         startGame();
     })
     .catch(err => console.error(err))
+
+// fetch("https://opentdb.com/api.php?amount=10&category=21&difficulty=easy&type=multiple")
+//     .then(res => res.json())
+//     .then(loadedQuestions => {
+//         console.log(loadedQuestions.results);
+//         questions = loadedQuestions.results.map(loadedQuestion => {
+//             const formattedQuestion = {
+//                 question: loadedQuestion.question
+//             };
+
+//             const answerChoices = [...loadedQuestion.incorrect_answers];
+//             const indexCorrect = Math.floor(Math.random() * 3) + 1;
+//             formattedQuestion.answer = indexCorrect;
+//             answerChoices.splice(indexCorrect - 1, 0, loadedQuestion.correct_answer);
+
+//             answerChoices.forEach((choice, index) => {
+//                 formattedQuestion["choice" + (index + 1)] = choice;
+//             });
+
+//             return formattedQuestion;
+//         })
+//         startGame();
+//     })
+//     .catch(err => console.error(err))
 
 
 const CORRECT_POINT = 10;
@@ -57,9 +59,6 @@ startGame = () => {
 }
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= NUM_QUESTIONS) {
-        console.log(availableQuestions.length);
-        console.log(questionCounter);
-        console.log(NUM_QUESTIONS);
         localStorage.setItem('lastScore', score);
         window.location.href = "./end.html";
         return;

@@ -12,13 +12,15 @@ html {
 .main-container {
     background-color: #F1ECC3;
     margin: 20vh auto;
-    padding: 2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     border-radius: 12px;
-    width: 40vh;
-    height: 50vh;
+    width: 32vw;
+    min-width: 250px;
+    height: 60vh;
     box-shadow: 0 4px 6px 6px;
 }
 
@@ -35,7 +37,7 @@ button {
     padding-top: .1rem;
     padding-bottom: .1rem;
     width: 70%;
-    height: 20%;
+    height: 8vh;
     font-weight: 500;
     font-size: 20px;
     border-radius: 10px;
@@ -48,6 +50,36 @@ button:hover {
     cursor: pointer;
     transform: translateY(-.1rem);
     transition: .2s;
+}
+
+#packs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#question-packs {
+    width: 100%;
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.sport-img {
+    background-color: azure;
+    width: 3.4rem;
+    padding: .2rem;
+    border-radius: 20%;
+    box-shadow: 0 2px 2px 2px;
+}
+
+.sport-img:hover {
+    cursor: pointer;
+    transform: scale(1.16);
+    transition: all .2s;
 }
 
 .hidden {
