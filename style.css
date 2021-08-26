@@ -49,3 +49,8 @@ button:hover {
     transform: translateY(-.1rem);
     transition: .2s;
 }
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
