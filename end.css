@@ -12,7 +12,7 @@ html {
 .end-container {
     background-color: #F1ECC3;
     margin: 20vh auto;
-    padding: 2rem;
+    padding: 1.2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,15 +26,15 @@ html {
 .end-container h1 {
     text-align: center;
     letter-spacing: 1px;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     font-size: 36px;
     font-weight: 700;
 }
 
 button {
-    margin: .6rem auto;
-    padding-top: .1rem;
-    padding-bottom: .1rem;
+    margin: .4rem auto;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
     width: 70%;
     height: 20%;
     font-weight: 500;

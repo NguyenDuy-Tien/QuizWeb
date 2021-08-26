@@ -17,7 +17,10 @@ fetch(`questions_${category}.json`)
         questions = loadedQuestions;
         startGame();
     })
-    .catch(err => console.error(err))
+    .catch(err => {
+        if (err == 'SyntaxError: Unexpected token < in JSON at position 0') window.location.href = 'index.html';
+        else console.error;
+    })
 
 // fetch("https://opentdb.com/api.php?amount=10&category=21&difficulty=easy&type=multiple")
 //     .then(res => res.json())
@@ -59,7 +62,8 @@ startGame = () => {
 }
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= NUM_QUESTIONS) {
-        localStorage.setItem('lastScore', score);
+        const selectedChoice = localStorage.getItem('selectedChoice');
+        localStorage.setItem(`lastScore${selectedChoice}`, score);
         window.location.href = "./end.html";
         return;
     }
