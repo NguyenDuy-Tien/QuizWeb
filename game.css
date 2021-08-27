@@ -150,3 +150,42 @@ html {
         transform: rotate(360deg);
     }
 }
+
+@media only screen and (max-width: 520px) {
+    html {
+        font-size: 14px;
+    }
+    #game {
+        width: 90vw;
+    }
+    #loader {
+        padding-left: 20vw;
+        padding-right: 20vw;
+        margin-top: 30vh;
+    }
+    #next-btn {
+        height: fit-content;
+        padding-top: .2rem;
+        padding-bottom: .2rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    html {
+        font-size: 12px;
+    }
+    #game {
+        width: 94vw;
+    }
+    #game .question {
+        margin: 1rem;
+        padding: .3rem;
+        border-radius: 6px;
+    }
+    .choice-prefix {
+        font-size: 16px;
+        font-weight: 700;
+        width: 28px;
+        margin-right: .4rem;
+    }
+}

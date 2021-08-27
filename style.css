@@ -23,7 +23,7 @@ html {
     background-color: #F1ECC3;
     margin: 20vh auto;
     padding-top: 1.2rem;
-    padding-bottom: 0rem;
+    padding-bottom: .2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,7 +31,7 @@ html {
     width: 32vw;
     min-width: 250px;
     max-width: 300px;
-    height: 60vh;
+    height: 56vh;
     box-shadow: 0 4px 6px 6px;
 }
 
@@ -58,7 +58,7 @@ html {
 }
 
 button {
-    margin: .6rem auto;
+    margin: .4rem auto;
     padding-top: .1rem;
     padding-bottom: .1rem;
     width: 50%;
@@ -80,7 +80,7 @@ button:hover {
 #packs {
     display: flex;
     flex-direction: column;
-    margin-bottom: 6vh;
+    margin-bottom: 3.6vh;
     justify-content: center;
     align-items: center;
 }
@@ -124,5 +124,24 @@ button:hover {
     100% {
         opacity: 100%;
         transform: translateY(.06rem);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .main-container {
+        padding-top: .6rem;
+        height: 52vh;
+    }
+    .main-container h2 {
+        margin-bottom: 8%;
+    }
+    #packs {
+        margin-bottom: 2vh;
+    }
+    #question-packs {
+        margin-bottom: 2vh;
+    }
+    button {
+        margin-top: 0;
     }
 }
