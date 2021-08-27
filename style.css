@@ -4,9 +4,23 @@
     padding: 0;
 }
 
+html,
+body {
+    min-height: 100%;
+}
+
 html {
     background-color: #509689;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-body {
+    height: 100vw 100vh;
+    background: url(./img/sport-background6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
 }
 
 .main-container {
@@ -20,6 +34,7 @@ html {
     border-radius: 12px;
     width: 32vw;
     min-width: 250px;
+    max-width: 300px;
     height: 60vh;
     box-shadow: 0 4px 6px 6px;
 }
