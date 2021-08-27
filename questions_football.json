@@ -34,20 +34,6 @@
     "choice4": "Alisson Becker",
     "answer": 1
 }, {
-    "question": "Which country won the first ever World Cup in 1930?",
-    "choice1": "Uruguay",
-    "choice2": "Brazil",
-    "choice3": "England",
-    "choice4": "Argentina",
-    "answer": 1
-}, {
-    "question": "Which country has appeared in three World Cup finals, but never won the competition?",
-    "choice1": "Croatia",
-    "choice2": "Netherlands",
-    "choice3": "Belgium",
-    "choice4": "Argentina",
-    "answer": 2
-}, {
     "question": "The record number of World Cup goals is 16, scored by who?",
     "choice1": "Miroslav Klose",
     "choice2": "Pele",
