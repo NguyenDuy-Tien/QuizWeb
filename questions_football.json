@@ -66,7 +66,7 @@
     "choice1": "Barcelona",
     "choice2": "AC Milan",
     "choice3": "Real Madrid",
-    "choice4": "Liverpool",
+    "choice4": "Manchester United",
     "answer": 3
 }, {
     "question": "Which country won the first ever World Cup in 1930?",
@@ -112,9 +112,93 @@
     "answer": 1
 }, {
     "question": "I was the first Liverpool player to win the Ballon d'Or. Who am I?",
-    "choice1": "Steven Gerrald",
+    "choice1": "Steven Gerrard",
     "choice2": "Michael Owen",
     "choice3": "Phil Neal",
     "choice4": "Alan Kennedy",
     "answer": 2
+}, {
+    "question": "What Italian club is associated with the nickname Partenopei?",
+    "choice1": "Atalanta",
+    "choice2": "Napoli",
+    "choice3": "Roma",
+    "choice4": "Palermo",
+    "answer": 2
+}, {
+    "question": "Which was the first French team to win the European Cup?",
+    "choice1": "Lyon",
+    "choice2": "Bordeaux",
+    "choice3": "PSG",
+    "choice4": "Marseille",
+    "answer": 4
+}, {
+    "question": "What English club is associated with the nickname The Hammers?",
+    "choice1": "Aston Villa",
+    "choice2": "Stoke City",
+    "choice3": "Newcastle Uniteds",
+    "choice4": "West Ham",
+    "answer": 4
+}, {
+    "question": "What is the name of Arsenal's home ground?",
+    "choice1": "Highbury",
+    "choice2": "St.James Park",
+    "choice3": "Emirates",
+    "choice4": "Arsene Wenger",
+    "answer": 3
+}, {
+    "question": "Which of the following clubs did David Beckham never play for?",
+    "choice1": "LA Galaxy",
+    "choice2": "Real Madrid",
+    "choice3": "Paris Saint-Germain",
+    "choice4": "Juventus",
+    "answer": 4
+}, {
+    "question": "Which was the first English team to win the European Cup?",
+    "choice1": "Manchester United",
+    "choice2": "Nottingham",
+    "choice3": "Liverpool",
+    "choice4": "Chelsea",
+    "answer": 1
+}, {
+    "question": "From which country is the football player Robert Lewandowski?",
+    "choice1": "Germany",
+    "choice2": "Poland",
+    "choice3": "Hungary",
+    "choice4": "Russia",
+    "answer": 2
+}, {
+    "question": "Which of these Spanish clubs is the oldest?",
+    "choice1": "Sevilla",
+    "choice2": "Barcelona",
+    "choice3": "Real Madrid",
+    "choice4": "Villareal",
+    "answer": 1
+}, {
+    "question": "What nickname is the Italian club Milan associated with?",
+    "choice1": "I Giallorossi",
+    "choice2": "I Biancocelesti",
+    "choice3": "I Nerazzurri",
+    "choice4": "I Rossoneri",
+    "answer": 4
+}, {
+    "question": "From which country is the football player Javier Zanetti?",
+    "choice1": "Italia",
+    "choice2": "Argentina",
+    "choice3": "France",
+    "choice4": "Germany",
+    "answer": 2
+}, {
+    "question": "Who was the manager of the national Italian team that won the World Cup in 2006?",
+    "choice1": "Giovanni Trapattoni",
+    "choice2": "Marcello Lippi",
+    "choice3": "Cesare Prandelli",
+    "choice4": "Arrigo Sacchi",
+    "answer": 2
+}, {
+    "question": "How many World Cup participations have Miroslav Klose?",
+    "choice1": "6",
+    "choice2": "5",
+    "choice3": "4",
+    "choice4": "3",
+    "answer": 3
 }]
