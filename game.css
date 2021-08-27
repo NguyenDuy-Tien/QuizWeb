@@ -1,3 +1,8 @@
+html {
+    background: url(./img/stadium-background.jpg);
+    background-size: auto 100vh;
+}
+
 #game {
     background-color: #F1ECC3;
     margin: 4rem auto;

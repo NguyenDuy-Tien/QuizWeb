@@ -14,11 +14,7 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
-}
-
-#main-body {
-    height: 100vw 100vh;
-    background: url(./img/sport-background6.jpg);
+    background: url(./img/sport-background3.jpg);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }

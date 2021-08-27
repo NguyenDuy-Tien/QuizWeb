@@ -6,7 +6,9 @@
 
 html {
     background-color: #509689;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(./img/stadium-background.jpg);
+    background-size: auto 100vh;
 }
 
 .score-container {
