@@ -1,43 +1,120 @@
 [{
-    "question": "Which team won the 2015-2016 Premiere League ?",
+    "question": "Which team won the 2015-2016 Premiere League?",
     "choice1": "Manchester United",
     "choice2": "Chelsea",
     "choice3": "Manchester City",
     "choice4": "Leicester City",
     "answer": 4
 }, {
-    "question": "Who had played for both Barcelona and Real Marid",
+    "question": "Who had played for both Barcelona and Real Marid?",
     "choice1": "Johan Cruyff",
     "choice2": "Luis Enrique",
     "choice3": "Fabio Cannavaro",
     "choice4": "Nicolas Anelka",
     "answer": 2
 }, {
-    "question": "Which player had the most time winning Golden'D Or?",
+    "question": "Which player had the most time winning Ballon'D Or?",
     "choice1": "Lionel Messi",
     "choice2": "Cristiano Ronaldo",
     "choice3": "Ronaldinho",
     "choice4": "Pele",
     "answer": 1
 }, {
-    "question": "This is the 3rd lalala. What is your saying to this ?",
-    "choice1": "According to my knowledge, I dont know",
-    "choice2": "Who knows",
-    "choice3": "Let me seeeeeee, can you?",
-    "choice4": "All the above",
+    "question": "Which player scored the fastest hat-trick in the Premier League?",
+    "choice1": "Sergio Aguero",
+    "choice2": "Cristiano Ronaldo",
+    "choice3": "Sadio Mane",
+    "choice4": "Thierry Henry",
     "answer": 3
 }, {
-    "question": "If you have 1 million dollar but you have only one day left, what would you do? A, B, C or D",
-    "choice1": "A",
-    "choice2": "B",
-    "choice3": "C",
-    "choice4": "All the above",
-    "answer": 3
-}, {
-    "question": "Last question?",
-    "choice1": "Of course",
-    "choice2": "Maybe",
-    "choice3": "No",
-    "choice4": "Who cares",
+    "question": "With 202 clean sheets, which goalkeeper has the best record in the Premier League?",
+    "choice1": "Petr Cech",
+    "choice2": "Peter Schmeichel",
+    "choice3": "Edwin van de Sar",
+    "choice4": "Alisson Becker",
     "answer": 1
+}, {
+    "question": "Which country won the first ever World Cup in 1930?",
+    "choice1": "Uruguay",
+    "choice2": "Brazil",
+    "choice3": "England",
+    "choice4": "Argentina",
+    "answer": 1
+}, {
+    "question": "Which country has appeared in three World Cup finals, but never won the competition?",
+    "choice1": "Croatia",
+    "choice2": "Netherlands",
+    "choice3": "Belgium",
+    "choice4": "Argentina",
+    "answer": 2
+}, {
+    "question": "The record number of World Cup goals is 16, scored by who?",
+    "choice1": "Miroslav Klose",
+    "choice2": "Pele",
+    "choice3": "Gerd Muller",
+    "choice4": "Diego Maradona",
+    "answer": 1
+}, {
+    "question": "What was Messi's schoolboy team?",
+    "choice1": "Santos",
+    "choice2": "Newell's Old Boys",
+    "choice3": "Sporting CB",
+    "choice4": "Boca Juniors",
+    "answer": 2
+}, {
+    "question": "Which club has won the most Champions League titles?",
+    "choice1": "Barcelona",
+    "choice2": "AC Milan",
+    "choice3": "Real Madrid",
+    "choice4": "Liverpool",
+    "answer": 3
+}, {
+    "question": "Which country won the first ever World Cup in 1930?",
+    "choice1": "Uruguay",
+    "choice2": "Brazil",
+    "choice3": "England",
+    "choice4": "Argentina",
+    "answer": 1
+}, {
+    "question": "Who is the only player to win the Champions League with three different clubs?",
+    "choice1": "David Beckham",
+    "choice2": "Zinedine Zidane",
+    "choice3": "Paolo Maldini",
+    "choice4": "Clarence Seedorf",
+    "answer": 4
+}, {
+    "question": "Who is the Champions League's top goalscorer of all time?",
+    "choice1": "Cristiano Ronaldo",
+    "choice2": "Lionel Messi",
+    "choice3": "Gerd Muller",
+    "choice4": "Lewandowski",
+    "answer": 1
+}, {
+    "question": "The Euro 2000 final between France and Italy was decided by Golden Goal. Which player scored the goal?",
+    "choice1": "David Trezeguet",
+    "choice2": "Michel Platini",
+    "choice3": "Claude Makelele",
+    "choice4": "Laurent Blanc",
+    "answer": 1
+}, {
+    "question": "Who holds the record age for youngest head coach in the Bundesliga is 28 years and 205 days?",
+    "choice1": "Jurgen Klopp",
+    "choice2": "Thomas Tuchel",
+    "choice3": "Julian Nagelsmann",
+    "choice4": "Mark van Bommel",
+    "answer": 3
+}, {
+    "question": "Which manager was famously said to have given players 'the Hairdryer Treatment'?",
+    "choice1": "Sir Alex Ferguson",
+    "choice2": "Arsene Wenger",
+    "choice3": "Jose Mourinho",
+    "choice4": "Pep Guardiola",
+    "answer": 1
+}, {
+    "question": "I was the first Liverpool player to win the Ballon d'Or. Who am I?",
+    "choice1": "Steven Gerrald",
+    "choice2": "Michael Owen",
+    "choice3": "Phil Neal",
+    "choice4": "Alan Kennedy",
+    "answer": 2
 }]

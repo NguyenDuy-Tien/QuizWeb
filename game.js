@@ -48,7 +48,7 @@ fetch(`questions_${category}.json`)
 
 
 const CORRECT_POINT = 10;
-const NUM_QUESTIONS = 4;
+const NUM_QUESTIONS = 6;
 startGame = () => {
     questionCounter = 0;
     score = 0;

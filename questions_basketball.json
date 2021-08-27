@@ -1,43 +1,92 @@
 [{
-    "question": "Which team won the 2015-2016 Premiere League ?",
-    "choice1": "Manchester United",
-    "choice2": "Chelsea",
-    "choice3": "Manchester City",
-    "choice4": "Leicester City",
+    "question": "Who is the shortest player to play in the NBA?",
+    "choice1": "Earl Boykins",
+    "choice2": "Nate Robinson",
+    "choice3": "Spud Webb",
+    "choice4": "Mussy Bogues",
     "answer": 4
 }, {
-    "question": "Who had played for both Barcelona and Real Marid",
-    "choice1": "Johan Cruyff",
-    "choice2": "Luis Enrique",
-    "choice3": "Fabio Cannavaro",
-    "choice4": "Nicolas Anelka",
+    "question": "What team played in the most overall NBA Final series?",
+    "choice1": "Celtics",
+    "choice2": "Lakers",
+    "choice3": "Bulls",
+    "choice4": "Magic",
     "answer": 2
 }, {
-    "question": "Which player had the most time winning Golden'D Or?",
-    "choice1": "Lionel Messi",
-    "choice2": "Cristiano Ronaldo",
-    "choice3": "Ronaldinho",
-    "choice4": "Pele",
+    "question": "Who won the Rookie of the Year Award in 2009?",
+    "choice1": "Kevin Durant",
+    "choice2": "Stephen Curry",
+    "choice3": "Derrick Rose",
+    "choice4": "Mitch Richmond",
     "answer": 1
 }, {
-    "question": "This is the 3rd lalala. What is your saying to this ?",
-    "choice1": "According to my knowledge, I dont know",
-    "choice2": "Who knows",
-    "choice3": "Let me seeeeeee, can you?",
-    "choice4": "All the above",
+    "question": "Who won the MVP in the 2008-2009 season?",
+    "choice1": "Dwight Howard",
+    "choice2": "Kobe Bryant",
+    "choice3": "Lebron James",
+    "choice4": "Dwayne Wade",
     "answer": 3
 }, {
-    "question": "If you have 1 million dollar but you have only one day left, what would you do? A, B, C or D",
-    "choice1": "A",
-    "choice2": "B",
-    "choice3": "C",
-    "choice4": "All the above",
+    "question": "Who won the 3-point contest three straight times?",
+    "choice1": "Glen Rice",
+    "choice2": "Voshon Lenard",
+    "choice3": "Larry Bird",
+    "choice4": "Predrag Stojakovic",
     "answer": 3
 }, {
-    "question": "Last question?",
-    "choice1": "Of course",
-    "choice2": "Maybe",
-    "choice3": "No",
-    "choice4": "Who cares",
+    "question": "Who has the nickname 'Hibachi'?",
+    "choice1": "Wade",
+    "choice2": "Howard",
+    "choice3": "Arenas",
+    "choice4": "Lebron",
+    "answer": 3
+}, {
+    "question": "What number is Kobe Bryant?",
+    "choice1": "24",
+    "choice2": "23",
+    "choice3": "8",
+    "choice4": "4",
     "answer": 1
+}, {
+    "question": "Which basketball player starred in Space Jam?",
+    "choice1": "Michael Jordan",
+    "choice2": "Shaqueille O'Neil",
+    "choice3": "Jeremey Lin",
+    "choice4": "Lebron James",
+    "answer": 1
+}, {
+    "question": "Why are the Los Angeles Lakers called the Lakers?",
+    "choice1": "Their first arena was on a lake",
+    "choice2": "Their founder was named 'Lake'",
+    "choice3": "They originally came from the Minnesota",
+    "choice4": "One of their legends names 'Lake'",
+    "answer": 3
+}, {
+    "question": "What is depicted on the logo of the Golden State Warriors?",
+    "choice1": "A basketball",
+    "choice2": "A bear",
+    "choice3": "A spearhead",
+    "choice4": "A bridge",
+    "answer": 4
+}, {
+    "question": "Who was the shortest player to win an MVP?",
+    "choice1": "Allen Iverson",
+    "choice2": "Steve Nash",
+    "choice3": "Spud Webb",
+    "choice4": "Charles Barkley",
+    "answer": 1
+}, {
+    "question": "What is the record for the highest scoring average in a single-season?",
+    "choice1": "35.4ppg",
+    "choice2": "50.4ppg",
+    "choice3": "42.8ppg",
+    "choice4": "38.4ppg",
+    "answer": 2
+}, {
+    "question": "What country is Manu Ginóbili from?",
+    "choice1": "France",
+    "choice2": "Argentina",
+    "choice3": "Italy",
+    "choice4": "United States",
+    "answer": 2
 }]
