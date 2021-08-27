@@ -14,11 +14,28 @@ html {
     box-shadow: 0 4px 6px 6px;
 }
 
-#score-box {
+#upper-bar {
     display: flex;
     padding-top: .8rem;
+    padding-left: 1.2rem;
     padding-right: 1.2rem;
-    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.fa-home {
+    font-size: 2rem;
+    color: #430c05;
+    border: 2px solid;
+    padding-left: .6rem;
+    padding-right: .6rem;
+    border-radius: 20%;
+}
+
+.fa-home:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+    transform: scale(1.1);
+    transition: all .2s;
 }
 
 #game .question {
