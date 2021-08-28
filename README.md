@@ -6,6 +6,7 @@
   - Tennis
 
 You can also save your highscore after each play to check progress.
- To start, just go to https://quiz-sports-tienduy2912.netlify.app/
+
+To start, just go to https://quiz-sports-tienduy2912.netlify.app/
 
 ## _Enjoy!_
